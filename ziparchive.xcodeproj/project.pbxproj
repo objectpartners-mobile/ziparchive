@@ -1,0 +1,285 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FBB414371524D40900D98074 /* crypt.h in Headers */ = {isa = PBXBuildFile; fileRef = FBB4142B1524D40900D98074 /* crypt.h */; };
+		FBB414381524D40900D98074 /* ioapi.c in Sources */ = {isa = PBXBuildFile; fileRef = FBB4142C1524D40900D98074 /* ioapi.c */; };
+		FBB414391524D40900D98074 /* ioapi.h in Headers */ = {isa = PBXBuildFile; fileRef = FBB4142D1524D40900D98074 /* ioapi.h */; };
+		FBB4143A1524D40900D98074 /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = FBB4142E1524D40900D98074 /* Makefile */; };
+		FBB4143B1524D40900D98074 /* mztools.c in Sources */ = {isa = PBXBuildFile; fileRef = FBB4142F1524D40900D98074 /* mztools.c */; };
+		FBB4143C1524D40900D98074 /* mztools.h in Headers */ = {isa = PBXBuildFile; fileRef = FBB414301524D40900D98074 /* mztools.h */; };
+		FBB4143D1524D40900D98074 /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = FBB414311524D40900D98074 /* unzip.c */; };
+		FBB4143E1524D40900D98074 /* unzip.h in Headers */ = {isa = PBXBuildFile; fileRef = FBB414321524D40900D98074 /* unzip.h */; };
+		FBB4143F1524D40900D98074 /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = FBB414331524D40900D98074 /* zip.c */; };
+		FBB414401524D40900D98074 /* zip.h in Headers */ = {isa = PBXBuildFile; fileRef = FBB414341524D40900D98074 /* zip.h */; };
+		FBB414411524D40900D98074 /* ZipArchive.h in Headers */ = {isa = PBXBuildFile; fileRef = FBB414351524D40900D98074 /* ZipArchive.h */; };
+		FBB414421524D40900D98074 /* ZipArchive.mm in Sources */ = {isa = PBXBuildFile; fileRef = FBB414361524D40900D98074 /* ZipArchive.mm */; };
+		FBBAF61C151A372A00311240 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBBAF61B151A372A00311240 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FBB4142A1524D40900D98074 /* ChangeLogUnzip */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ChangeLogUnzip; sourceTree = "<group>"; };
+		FBB4142B1524D40900D98074 /* crypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypt.h; sourceTree = "<group>"; };
+		FBB4142C1524D40900D98074 /* ioapi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ioapi.c; sourceTree = "<group>"; };
+		FBB4142D1524D40900D98074 /* ioapi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ioapi.h; sourceTree = "<group>"; };
+		FBB4142E1524D40900D98074 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		FBB4142F1524D40900D98074 /* mztools.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mztools.c; sourceTree = "<group>"; };
+		FBB414301524D40900D98074 /* mztools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mztools.h; sourceTree = "<group>"; };
+		FBB414311524D40900D98074 /* unzip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = unzip.c; sourceTree = "<group>"; };
+		FBB414321524D40900D98074 /* unzip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unzip.h; sourceTree = "<group>"; };
+		FBB414331524D40900D98074 /* zip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zip.c; sourceTree = "<group>"; };
+		FBB414341524D40900D98074 /* zip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zip.h; sourceTree = "<group>"; };
+		FBB414351524D40900D98074 /* ZipArchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZipArchive.h; sourceTree = SOURCE_ROOT; };
+		FBB414361524D40900D98074 /* ZipArchive.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ZipArchive.mm; sourceTree = SOURCE_ROOT; };
+		FBBAF618151A372A00311240 /* libziparchive.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libziparchive.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBBAF61B151A372A00311240 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FBBAF61F151A372A00311240 /* ziparchive-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ziparchive-Prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FBBAF615151A372A00311240 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBBAF61C151A372A00311240 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FBB414291524D40900D98074 /* minizip */ = {
+			isa = PBXGroup;
+			children = (
+				FBB4142A1524D40900D98074 /* ChangeLogUnzip */,
+				FBB4142B1524D40900D98074 /* crypt.h */,
+				FBB4142C1524D40900D98074 /* ioapi.c */,
+				FBB4142D1524D40900D98074 /* ioapi.h */,
+				FBB4142E1524D40900D98074 /* Makefile */,
+				FBB4142F1524D40900D98074 /* mztools.c */,
+				FBB414301524D40900D98074 /* mztools.h */,
+				FBB414311524D40900D98074 /* unzip.c */,
+				FBB414321524D40900D98074 /* unzip.h */,
+				FBB414331524D40900D98074 /* zip.c */,
+				FBB414341524D40900D98074 /* zip.h */,
+			);
+			path = minizip;
+			sourceTree = SOURCE_ROOT;
+		};
+		FBBAF60D151A372A00311240 = {
+			isa = PBXGroup;
+			children = (
+				FBBAF61D151A372A00311240 /* ziparchive */,
+				FBBAF61A151A372A00311240 /* Frameworks */,
+				FBBAF619151A372A00311240 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FBBAF619151A372A00311240 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FBBAF618151A372A00311240 /* libziparchive.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FBBAF61A151A372A00311240 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FBBAF61B151A372A00311240 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FBBAF61D151A372A00311240 /* ziparchive */ = {
+			isa = PBXGroup;
+			children = (
+				FBB414291524D40900D98074 /* minizip */,
+				FBB414351524D40900D98074 /* ZipArchive.h */,
+				FBB414361524D40900D98074 /* ZipArchive.mm */,
+				FBBAF61E151A372A00311240 /* Supporting Files */,
+			);
+			path = ziparchive;
+			sourceTree = "<group>";
+		};
+		FBBAF61E151A372A00311240 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FBBAF61F151A372A00311240 /* ziparchive-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		FBBAF616151A372A00311240 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBB414371524D40900D98074 /* crypt.h in Headers */,
+				FBB414391524D40900D98074 /* ioapi.h in Headers */,
+				FBB4143C1524D40900D98074 /* mztools.h in Headers */,
+				FBB4143E1524D40900D98074 /* unzip.h in Headers */,
+				FBB414401524D40900D98074 /* zip.h in Headers */,
+				FBB414411524D40900D98074 /* ZipArchive.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		FBBAF617151A372A00311240 /* ziparchive */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBBAF625151A372A00311240 /* Build configuration list for PBXNativeTarget "ziparchive" */;
+			buildPhases = (
+				FBBAF614151A372A00311240 /* Sources */,
+				FBBAF615151A372A00311240 /* Frameworks */,
+				FBBAF616151A372A00311240 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ziparchive;
+			productName = ziparchive;
+			productReference = FBBAF618151A372A00311240 /* libziparchive.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FBBAF60F151A372A00311240 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Object Partners Inc.";
+			};
+			buildConfigurationList = FBBAF612151A372A00311240 /* Build configuration list for PBXProject "ziparchive" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FBBAF60D151A372A00311240;
+			productRefGroup = FBBAF619151A372A00311240 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FBBAF617151A372A00311240 /* ziparchive */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FBBAF614151A372A00311240 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBB414381524D40900D98074 /* ioapi.c in Sources */,
+				FBB4143A1524D40900D98074 /* Makefile in Sources */,
+				FBB4143B1524D40900D98074 /* mztools.c in Sources */,
+				FBB4143D1524D40900D98074 /* unzip.c in Sources */,
+				FBB4143F1524D40900D98074 /* zip.c in Sources */,
+				FBB414421524D40900D98074 /* ZipArchive.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FBBAF623151A372A00311240 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FBBAF624151A372A00311240 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FBBAF626151A372A00311240 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/ziparchive.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ziparchive/ziparchive-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		FBBAF627151A372A00311240 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/ziparchive.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ziparchive/ziparchive-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FBBAF612151A372A00311240 /* Build configuration list for PBXProject "ziparchive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBBAF623151A372A00311240 /* Debug */,
+				FBBAF624151A372A00311240 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBBAF625151A372A00311240 /* Build configuration list for PBXNativeTarget "ziparchive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBBAF626151A372A00311240 /* Debug */,
+				FBBAF627151A372A00311240 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FBBAF60F151A372A00311240 /* Project object */;
+}
